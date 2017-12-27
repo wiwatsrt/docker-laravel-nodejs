@@ -1,4 +1,4 @@
-FROM node:4.4.7-slim
+FROM node:8.9-alpine
 
 RUN npm install -g gulp 
 RUN npm install -g bower
